@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'League Spartan', sans-serif;
+}
+html {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 70%;
+    color: #1f3e72;
+}
+/* Nav Section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    min-width: 320px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    z-index: 3;
+    padding: 0px 95px;
+}
+nav .nav-left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+}
+nav .nav-left p {
+    height: 40px;
+    color: #2c4cca;
+    font-size: 2.6rem;
+}
+nav .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    font-size: 1.4rem;
+}
+nav .nav-right .nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+nav .nav-right li {
+    list-style: none;
+    margin: 0px 20px;
+}
+nav .nav-right .nav-button-container {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: #2b4ac5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Fight Virus with vaccines */
+.title-section {
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+/* Left Section */
+.title-section .title-container {
+    width: 50%;
+    height: 580px;
+    padding: 170px 100px 150px 90px;
+}
+.title-section .title-container h1 {
+    font-size: 4.2rem;
+}
+.title-section .title-container p {
+    width: 270px;
+    font-size: 1.4rem;
+    margin: 15px 0px;
+}
+.title-section .title-container .yellow-icon-container {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+.title-section .title-container .yellow-icon-container .small-icon {
+    width: 28px;
+    height: 18px;
+    margin: 0px 10px;
+    padding: 3px;
+    background-color: rgba(255, 208, 18, 0.2);
+    border-radius: 2px;
+}
+.title-section .title-container .yellow-icon-container .shield {
+    color: #ffd012;
+    
+}
+.title-section .title-container .yellow-icon-container .star {
+    color: #ffd012;
+}
+    
+.title-section .title-container .schedule-container {
+    width: 300px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 50px;
+}
+.title-section .title-container .schedule-container span {
+    width: 18px;
+    height: 18px;
+    margin: 0px 10px;
+    padding: 3px;
+    color: #3555d3;
+    background-color: rgba(53, 85, 211, 0.2);
+    border-radius: 2px;
+    
+}
+.title-section .title-container .schedule-container p {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+
+/* Right Section */
+.title-section .title-image {
+        height: 650px;
+        display: flex;
+        justify-content: center;
+}
+.title-section .title-image img {
+    width: 100%;
+    object-fit: cover;
+}
+ 
+    
+/* Card */
+.floating-card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 90px;
+    top: 530px;
+    width: 65%;
+    min-width: 660px;
+    height: 100px;
+    font-size: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px 1px;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.floating-card-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.floating-card-icon {
+    width: 28px;
+    height: 28px;
+    align-self: baseline;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 4px;
+    margin: 5px 10px 0px 20px;
+    padding: 6px;
+    background: center center / contain no-repeat;
+    background-color: rgba(53, 85, 211, 0.2);
+    border-radius: 2px;
+    color: #3555d3;
+}
+
+.floatin-card-right {
+    justify-self: center;
+    padding: 10px;
+}
+
+
+/* 2 Section Logos */
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    padding: 30px 200px;
+}
+.logos .logo-opaque {
+    display: inline-block;
+    width: 200px;
+    margin: 0px 30px;
+    filter: grayscale(100%);
+    opacity: 20%;
+}
+/* 3 Section "Why should I vaccine" */
+.reasons {
+    width: 100%;
+    padding: 40px 80px;
+}
+.reasons-text h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.reasons-text p {
+    width: 380px;
+    font-size: 1.6rem;
+    margin: 15px 0px;
+}
+/* Cards */
+.reasons-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    padding: 0px 30px;
+    }
+.reasons-card {
+    width: 22%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 5px;
+    padding: 40px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    }
+.fa-viruses, .fa-shield-blank, .fa-users, .fa-chart-line{
+    color: #3555d3;
+    background-color: rgba(53, 85, 211, 0.2);
+}
+
+.reasons-card h3 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin: 30px 0px;
+    }
+.reasons-card p {
+    font-size: 1.4rem;
+    opacity: 70%;
+    }
+/* 4 Section "Preparations Before Vaccine" */
+.prep {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+    /* left Section */
+.prep-image {
+    width: 47%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.prep-image img {
+    height: 100%;
+    object-fit: cover;
+}
+    /* Right Section */
+.prep-container {
+    width: 50%;
+    height: 650px;
+}
+.prep-container h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin: 50px 0px 20px;
+}
+.prep-container p {
+    font-size: 2rem;
+}
+.prep-list-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px;
+}
+.list-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0px 15px;
+    padding: 3.5px;
+    color: #3555d3;
+    background-color: rgba(53, 85, 211, 0.2);
+    border-radius: 2px;
+}
+.fa-xmark{
+    padding: 3.9px;
+}
+.list-item p {
+    width: 260px;
+}
+.drop-icon {
+    width: 15px;
+    height: 15px;
+    justify-self: right;
+    margin: 0px 15px;
+    
+}
+
+/* 5 Section Contact */
+.contact {
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* Left */
+.contact-container {
+    width: 50%;
+    height: 650px;
+    padding-left: 90px;
+}
+.contact-container h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin: 50px 0px 20px;
+}
+.contact-container > p {
+    font-size: 2rem;
+    margin-bottom: 120px;
+}
+
+    /* Contact Cards */
+.contact-card-container {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+.contact-card {
+    width: 180px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.contact-card-top {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card-icon {
+    width: 40;
+    height: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    color: #3555d3;
+    background-color: rgba(53, 85, 211, 0.2);
+    border-radius: 4px;
+}
+.contact-card div + div {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opaque-button {
+    color: #2b4ac5;
+    background-color: #e2e9f9;
+}
+.card-text-container p + p {
+    font-size: 1rem;
+}
+    
+    /* Right */
+.contact-image {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.contact-image img {
+    height: 90%;
+    object-fit: cover;
+}
+
+/* Footer  */
+footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    padding: 40px 90px 10px;
+    font-size: 1.3rem;
+    background-color: #f1f5ff;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.goal-side {
+    width: 150px;
+}
+.goal-side h3 {
+    font-size: 2.4rem;
+    color: #2b4ac5;
+    margin-bottom: 15px;
+}
+
+.about-side {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+}
+.about-side ul {
+    list-style: none;
+    margin: 0 25px;
+}
+.about-side ul li {
+    margin: 10px 0;
+}
+.about-side ul li b {
+    font-size: 1.6rem;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom div p {
+    display: inline;
+    margin: 0 10px;
+}
